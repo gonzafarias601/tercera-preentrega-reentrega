@@ -1,0 +1,132 @@
+.bodyLocalidades{
+    header{
+        background-image: url('https://images.unsplash.com/photo-1621573094640-0b2391e9acec?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80');
+        @include header(100%, 21.875rem, no-repeat, cover);
+        h1{
+            color: white;
+        }
+        h3{
+            color: white;
+        }
+    }
+    main{
+        background-color: #0C0B26;
+    }
+}
+    .Encabezado{
+        width: 100%;
+        height: 31.25rem;
+        display: grid;
+        grid-template-columns: 25rem 10% 30% 43.125rem;
+        grid-template-rows: 6.25rem 5.625rem 5rem 5rem;
+        grid-template-areas: 
+        "logo . . BdeN"
+        ". . . ."
+        ". . DE ."
+        "NS . . ."
+        ;
+        justify-items:left;
+        align-items: end;
+        justify-content: space-between;
+        column-gap: 2.5rem;
+    }    
+.ulNavegador{
+    grid-area: BdeN;
+    justify-content: right;
+    align-self: baseline;
+}
+.divLogoAdidas{
+    grid-area: logo;
+    div{
+        p{
+            color: white;
+        }
+    }
+}
+.DondeEs{
+    font-size: 1.375rem;
+    font-family: 'Roboto',sans-serif;
+    grid-area: DE;
+    text-shadow: .3125rem .3125rem .3125rem rgba(0, 0, 0, 0.397);
+    justify-items: end;
+    align-self: baseline;
+}
+.NuestrasSu{
+    font-size: 1rem;
+    font-family: 'Roboto',sans-serif;
+    margin-left: 1.25rem;
+    grid-area: NS;
+
+}
+.adidasLocalidades{
+        width: 100%;
+        height: 25rem;
+        display: grid;
+        grid-template-columns: 15rem 21.875rem 15rem 21.875rem;
+        grid-template-rows: 7.5rem 7.5rem 7.5rem;
+        column-gap: 1.25rem;
+        grid-template-areas: 
+        "fotouno descuno fotodos descdos"
+        "fototres desctres fotocuatro desccuatro"
+        "fotocinco desccinco fotoseis descseis"
+        ;
+        justify-content: center;
+}
+    div{
+        img{
+            width: 15rem;
+            height: 7rem;
+        }
+        p{
+            color: white; 
+        }
+    }
+
+.FotolocalUno{
+    grid-area: fotouno;
+}
+
+.DescLocalUno{
+    grid-area: descuno;
+}
+
+.FotoLocalDos{
+    grid-area: fotodos;
+}
+
+.DescLocalDos{
+    grid-area: descdos;
+}
+
+.FotoLocalTres{
+    grid-area: fototres;
+}
+
+.DescLocalTres{
+    grid-area: desctres;
+}
+
+.FotoLocalCuatro{
+    grid-area: fotocuatro;
+}
+
+.DescLocalCuatro{
+    grid-area: desccuatro;
+}
+
+.FotolocalCinco{
+    grid-area: fotocinco;
+}
+
+.DescLocalCinco{
+    grid-area: desccinco;
+}
+
+.FotolocalSeis{
+    grid-area: fotoseis;
+}
+
+.DescLocalSeis{
+    grid-area: descseis;
+}
+

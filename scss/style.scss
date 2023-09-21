@@ -1,0 +1,38 @@
+header{
+    background-color: #000000; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 7.5rem;
+    display: flex;
+    justify-content: space-between;
+        .Logo{
+            display: flex;
+            justify-content: space-between;
+        }
+}
+.ulRedes img{
+    width: 5rem;
+    height: 4.375rem;
+}
+.pieDePagina{
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+@import "./utilities/variables";
+
+@import "./base/reset";
+
+@import "./layout/index";
+@import "./layout/localidades";
+@import "./layout/nosotros";
+@import "./layout/ropa";
+@import "./layout/seleccion";
+
+@import "./layout/media/medianormal";
+@import "./layout/media/media1024";
+@import "./layout/media/media768";
+@import "./layout/media/media425";

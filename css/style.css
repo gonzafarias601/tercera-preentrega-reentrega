@@ -1,0 +1,1024 @@
+header {
+  background-color: #000000;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 7.5rem;
+  display: flex;
+  justify-content: space-between; }
+  header .Logo {
+    display: flex;
+    justify-content: space-between; }
+
+.ulRedes img {
+  width: 5rem;
+  height: 4.375rem; }
+
+.pieDePagina {
+  color: white;
+  display: flex;
+  justify-content: space-around; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.bodyIndex header {
+  background-color: #000000;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 7.5rem;
+  display: flex;
+  justify-content: space-between; }
+  .bodyIndex header .logo {
+    display: flex;
+    justify-content: space-between; }
+  .bodyIndex header h1 {
+    text-align: center;
+    color: white;
+    font-family: 'Julius Sans One', sans-serif;
+    padding: 1.875rem;
+    display: inline; }
+
+.bodyIndex .Banner {
+  width: 100%;
+  height: 50.625rem;
+  background-image: url("https://images.unsplash.com/photo-1526573461737-b504d8040d92?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 80%;
+  font-size: 2.5rem;
+  color: white;
+  text-shadow: 0.3125rem 0.3125rem 0.3125rem rgba(0, 0, 0, 0.397);
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .bodyIndex .Banner h1 {
+    font-family: 'Julius Sans One', sans-serif; }
+
+.bodyIndex .FraseLeo h1 {
+  margin-top: 1.25rem;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 1.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.bodyIndex .FraseLeo .foto-frase {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .bodyIndex .FraseLeo .foto-frase h2 {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    width: 37.5rem;
+    margin-left: 1.25rem; }
+  .bodyIndex .FraseLeo .foto-frase img {
+    width: 15.625rem;
+    height: 15.625rem; }
+
+.bodyIndex .sectionVestimenta h2 {
+  margin: 2.5rem;
+  font-size: 1.875rem;
+  font-family: 'Roboto',sans-serif;
+  text-align: center;
+  color: white; }
+
+.bodyIndex .sectionVestimenta h3 {
+  color: white;
+  font-family: 'Roboto',sans-serif; }
+
+.bodyIndex .sectionVestimenta img {
+  width: 25rem;
+  height: 34.375rem; }
+
+.bodyIndex .sectionVestimenta .Vestimenta {
+  display: flex;
+  flex-direction: row;
+  background-color: rgba(0, 0, 0, 0.589);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly; }
+  .bodyIndex .sectionVestimenta .Vestimenta .tipoVestimenta {
+    border: solid 0.0625rem rgba(0, 0, 0, 0.493);
+    display: flex;
+    flex-direction: column;
+    border-radius: .625rem;
+    overflow: hidden;
+    margin: 1.5625rem 0px; }
+
+.bodyIndex main {
+  background-color: black; }
+  .bodyIndex main .apoyaSeleccion p {
+    font-family: 'Roboto',sans-serif;
+    width: 100%;
+    height: 50rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100%;
+    background-image: url("https://www.ole.com.ar/images/2022/12/18/dYmYg_Tdb_1580x750__1.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3.4375rem;
+    color: white;
+    text-shadow: 0.3125rem 0.3125rem 0.3125rem black; }
+
+.bodyIndex footer {
+  background-color: black; }
+  .bodyIndex footer .pieDePagina {
+    color: white;
+    display: flex;
+    justify-content: space-around; }
+    .bodyIndex footer .pieDePagina .ulRedes img {
+      width: 5rem;
+      height: 4.375rem; }
+
+.bodyLocalidades header {
+  background-image: url("https://images.unsplash.com/photo-1621573094640-0b2391e9acec?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+  height: 22rem; }
+  .bodyLocalidades header h1 {
+    color: white; }
+  .bodyLocalidades header h3 {
+    color: white; }
+
+.bodyLocalidades main {
+  background-color: #0C0B26; }
+
+.Encabezado {
+  width: 100%;
+  height: 31.25rem;
+  display: grid;
+  grid-template-columns: 25rem 10% 30% 43.125rem;
+  grid-template-rows: 6.25rem 5.625rem 5rem 5rem;
+  grid-template-areas: "logo . . BdeN" ". . . ." ". . DE ." "NS . . .";
+  justify-items: left;
+  align-items: end;
+  justify-content: space-between;
+  column-gap: 2.5rem; }
+
+.ulNavegador {
+  grid-area: BdeN;
+  justify-content: right;
+  align-self: baseline; }
+
+.divLogoAdidas {
+  grid-area: logo; }
+  .divLogoAdidas div p {
+    color: white; }
+
+.DondeEs {
+  font-size: 1.375rem;
+  font-family: 'Roboto',sans-serif;
+  grid-area: DE;
+  text-shadow: 0.3125rem 0.3125rem 0.3125rem rgba(0, 0, 0, 0.397);
+  justify-items: end;
+  align-self: baseline; }
+
+.NuestrasSu {
+  font-size: 1rem;
+  font-family: 'Roboto',sans-serif;
+  margin-left: 1.25rem;
+  grid-area: NS; }
+
+.adidasLocalidades {
+  width: 100%;
+  height: 25rem;
+  display: grid;
+  grid-template-columns: 15rem 21.875rem 15rem 21.875rem;
+  grid-template-rows: 7.5rem 7.5rem 7.5rem;
+  column-gap: 1.25rem;
+  grid-template-areas: "fotouno descuno fotodos descdos" "fototres desctres fotocuatro desccuatro" "fotocinco desccinco fotoseis descseis";
+  justify-content: center; }
+
+div img {
+  width: 15rem;
+  height: 7rem; }
+
+div p {
+  color: white; }
+
+.FotolocalUno {
+  grid-area: fotouno; }
+
+.DescLocalUno {
+  grid-area: descuno; }
+
+.FotoLocalDos {
+  grid-area: fotodos; }
+
+.DescLocalDos {
+  grid-area: descdos; }
+
+.FotoLocalTres {
+  grid-area: fototres; }
+
+.DescLocalTres {
+  grid-area: desctres; }
+
+.FotoLocalCuatro {
+  grid-area: fotocuatro; }
+
+.DescLocalCuatro {
+  grid-area: desccuatro; }
+
+.FotolocalCinco {
+  grid-area: fotocinco; }
+
+.DescLocalCinco {
+  grid-area: desccinco; }
+
+.FotolocalSeis {
+  grid-area: fotoseis; }
+
+.DescLocalSeis {
+  grid-area: descseis; }
+
+.bodyNosotros header {
+  background-color: #261E59;
+  background-image: url("https://images.unsplash.com/photo-1606748294390-f6449e6c61ef?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1932&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+  text-shadow: 0.3125rem 0.3125rem 0.3125rem rgba(0, 0, 0, 0.397);
+  height: 28.125rem;
+  width: 100%;
+  background-position: 70%; }
+
+.bodyNosotros main {
+  height: 46.875rem;
+  background-color: black; }
+  .bodyNosotros main img {
+    height: 9.375rem;
+    width: 15rem; }
+
+.bodyNosotros p {
+  font-family: 'Roboto',sans-serif;
+  font-size: 1.25rem; }
+
+.nosotrosMain {
+  width: 100%;
+  height: 34.375rem;
+  display: grid;
+  grid-template-columns: 15rem 15rem 15rem;
+  grid-template-rows: 13.75rem 13.75rem 13.75rem;
+  column-gap: 1.25rem;
+  grid-template-areas: "ha ha lv" "ha ha la" "tn tn ftn";
+  justify-content: center; }
+
+.historiaAdidas {
+  grid-area: ha; }
+  .historiaAdidas h1 {
+    color: white; }
+  .historiaAdidas h1 {
+    color: white; }
+  .historiaAdidas h3 {
+    color: white; }
+  .historiaAdidas img {
+    width: 12.5rem;
+    height: 9.375rem; }
+
+.logoViejo {
+  grid-area: lv; }
+  .logoViejo h3 {
+    color: white; }
+
+.logoActual {
+  grid-area: la; }
+  .logoActual h3 {
+    color: white; }
+
+.TrabajaConNosotros {
+  grid-area: tn; }
+  .TrabajaConNosotros img {
+    width: 9.375rem;
+    height: 9.375rem; }
+  .TrabajaConNosotros p {
+    color: white; }
+  .TrabajaConNosotros h1 {
+    color: white; }
+
+.FotoTrabajaNosotros {
+  grid-area: ftn; }
+
+.pieDePagina div {
+  background-color: black; }
+
+.ulRedes li {
+  list-style: none; }
+
+header {
+  background-color: black; }
+
+main {
+  background-color: black; }
+
+footer {
+  background-color: black; }
+
+@media (min-width: 1025px) {
+  header div img {
+    margin: .5rem .5rem;
+    width: 9.375rem;
+    height: 6.25rem; }
+  .ulNavegador {
+    display: flex;
+    list-style: none;
+    justify-content: center; }
+    .ulNavegador li {
+      display: inline;
+      font-weight: bold;
+      font-size: 13px;
+      padding-left: .5rem;
+      padding-right: 1.25rem;
+      padding-top: 3.125rem; }
+      .ulNavegador li a {
+        color: white;
+        text-decoration: none;
+        font-size: .9375rem; }
+  .sectionVestimentaRopa {
+    display: flex;
+    justify-content: center;
+    margin: 0rem 1.25rem;
+    font-family: 'Roboto',sans-serif;
+    justify-content: space-between; }
+    .sectionVestimentaRopa img {
+      width: 18.75rem;
+      height: 28.125rem; }
+    .sectionVestimentaRopa h3 {
+      color: white; }
+  .CamisetasDeportivas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    .CamisetasDeportivas img {
+      width: 56.25rem;
+      height: 31.25rem; }
+    .CamisetasDeportivas h3 {
+      color: white; }
+  /* ROPA SELECCION */
+  .bodyRopaSeleccion header {
+    width: 100%;
+    height: 31.25rem;
+    background-image: url(../assets/img//festejoarg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 90%; }
+  .sectionVestimentaSeleccion {
+    display: flex;
+    justify-content: space-between; }
+    .sectionVestimentaSeleccion img {
+      width: 18.75rem;
+      height: 25rem; }
+    .sectionVestimentaSeleccion h3 {
+      color: white;
+      font-family: 'Roboto',sans-serif; }
+  /* INDEX */
+  .bodyIndex header {
+    background-color: #000000;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 7.5rem;
+    display: flex;
+    justify-content: space-between; }
+    .bodyIndex header .logo {
+      display: flex;
+      justify-content: space-between; }
+    .bodyIndex header h1 {
+      text-align: center;
+      color: white;
+      font-family: 'Julius Sans One', sans-serif;
+      padding: 1.875rem;
+      display: inline; }
+  .bodyIndex .Banner {
+    width: 100%;
+    height: 50.625rem;
+    background-image: url("https://images.unsplash.com/photo-1526573461737-b504d8040d92?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 80%;
+    font-size: 2.5rem;
+    color: white;
+    text-shadow: 0.3125rem 0.3125rem 0.3125rem rgba(0, 0, 0, 0.397);
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .bodyIndex .Banner h1 {
+      font-family: 'Julius Sans One', sans-serif; }
+  .bodyIndex .FraseLeo h1 {
+    margin-top: 1.25rem;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 1.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+  .bodyIndex .FraseLeo .foto-frase {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .bodyIndex .FraseLeo .foto-frase h2 {
+      color: white;
+      font-family: 'Roboto', sans-serif;
+      width: 37.5rem;
+      margin-left: 1.25rem; }
+    .bodyIndex .FraseLeo .foto-frase img {
+      width: 15.625rem;
+      height: 15.625rem; }
+  .bodyIndex .sectionVestimenta h2 {
+    margin: 2.5rem;
+    font-size: 1.875rem;
+    font-family: 'Roboto',sans-serif;
+    text-align: center;
+    color: white; }
+  .bodyIndex .sectionVestimenta h3 {
+    color: white;
+    font-family: 'Roboto',sans-serif; }
+  .bodyIndex .sectionVestimenta img {
+    width: 25rem;
+    height: 34.375rem; }
+  .bodyIndex .sectionVestimenta .Vestimenta {
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(0, 0, 0, 0.589);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly; }
+    .bodyIndex .sectionVestimenta .Vestimenta .tipoVestimenta {
+      border: solid 0.0625rem rgba(0, 0, 0, 0.493);
+      display: flex;
+      flex-direction: column;
+      border-radius: .625rem;
+      overflow: hidden;
+      margin: 1.5625rem 0px; }
+  .bodyIndex main {
+    background-color: black; }
+    .bodyIndex main .apoyaSeleccion p {
+      font-family: 'Roboto',sans-serif;
+      width: 100%;
+      height: 50rem;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: 100%;
+      background-image: url("https://www.ole.com.ar/images/2022/12/18/dYmYg_Tdb_1580x750__1.jpg");
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 3.4375rem;
+      color: white;
+      text-shadow: 0.3125rem 0.3125rem 0.3125rem black; }
+  .bodyIndex footer {
+    background-color: black; }
+    .bodyIndex footer .pieDePagina {
+      color: white;
+      display: flex;
+      justify-content: space-around; }
+      .bodyIndex footer .pieDePagina .ulRedes img {
+        width: 5rem;
+        height: 4.375rem; } }
+
+@media (max-width: 1024px) {
+  header div img {
+    margin: .5rem .5rem;
+    width: 7.8125rem;
+    height: 5rem; }
+  .ulNavegador {
+    display: flex;
+    list-style: none;
+    justify-content: center; }
+    .ulNavegador li {
+      display: inline;
+      font-weight: bold;
+      font-size: 20px;
+      padding-left: .5rem;
+      padding-right: 1.5625rem;
+      padding-top: 3.125rem; }
+      .ulNavegador li a {
+        color: white;
+        text-decoration: none;
+        font-size: .75rem; }
+  /*.sectionVestimentaRopa img{
+        width: 18.75rem;
+        height: 28.125rem;
+    }*/
+  .sectionVestimentaRopa {
+    display: flex;
+    justify-content: center;
+    margin: 0rem 1.25rem;
+    font-family: 'Roboto',sans-serif;
+    justify-content: space-between;
+    align-items: center; }
+    .sectionVestimentaRopa img {
+      width: 10rem;
+      height: 12.5rem; }
+    .sectionVestimentaRopa h3 {
+      color: white;
+      font-size: .625rem; }
+  .CamisetasDeportivas img {
+    width: 57.5rem;
+    height: 31.25rem;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-left: 40px; }
+  .CamisetasDeportivas h3 {
+    margin-left: 40px;
+    color: white;
+    font-size: 15px;
+    font-family: 'Roboto',sans-serif; }
+  .pieDePagina h2 {
+    font-size: 15px;
+    margin-left: 20px; }
+  /*---------------------ROPA SELECCION----------------------*/
+  .bodyRopaSeleccion header {
+    width: 100%;
+    height: 300px;
+    background-image: url(../assets/img//festejoarg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 90%; }
+  .sectionVestimentaSeleccion {
+    display: flex;
+    justify-content: space-between;
+    margin: 0rem 1.25rem;
+    font-family: 'Roboto',sans-serif;
+    justify-content: space-between;
+    align-items: center; }
+    .sectionVestimentaSeleccion img {
+      width: 9.375rem;
+      height: 12.5rem; }
+    .sectionVestimentaSeleccion h3 {
+      color: white;
+      font-family: 'Roboto',sans-serif;
+      font-size: .625rem; }
+  /*---------------------------INDEX------------------------------*/
+  .bodyIndex {
+    background-color: #000000; }
+    .bodyIndex header {
+      background-color: #000000;
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 100%;
+      height: 7.5rem;
+      display: flex;
+      justify-content: space-between; }
+      .bodyIndex header .logo {
+        display: flex;
+        justify-content: space-between; }
+      .bodyIndex header h1 {
+        text-align: center;
+        color: white;
+        font-family: 'Julius Sans One', sans-serif;
+        padding: 1.875rem;
+        display: inline; }
+    .bodyIndex .Banner {
+      width: 100%;
+      height: 46.875rem;
+      background-image: url("https://images.unsplash.com/photo-1526573461737-b504d8040d92?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: 80%;
+      font-size: 20px;
+      padding-right: 70px;
+      color: white;
+      text-shadow: 0.3125rem 0.3125rem 0.3125rem rgba(0, 0, 0, 0.397);
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      .bodyIndex .Banner h1 {
+        font-family: 'Julius Sans One', sans-serif; }
+    .bodyIndex .FraseLeo h1 {
+      margin-top: 1.25rem;
+      color: white;
+      font-family: 'Roboto', sans-serif;
+      margin-bottom: 1.25rem;
+      display: flex;
+      align-items: center;
+      justify-content: center; }
+    .bodyIndex .FraseLeo .foto-frase {
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      .bodyIndex .FraseLeo .foto-frase h2 {
+        color: white;
+        font-family: 'Roboto', sans-serif;
+        font-size: 20px;
+        margin-left: 1.25rem; }
+      .bodyIndex .FraseLeo .foto-frase img {
+        width: 12.5rem;
+        height: 12.5rem; }
+    .bodyIndex .sectionVestimenta h2 {
+      margin: 2.5rem;
+      font-size: 1.875rem;
+      font-family: 'Roboto',sans-serif;
+      text-align: center;
+      color: white; }
+    .bodyIndex .sectionVestimenta h3 {
+      color: white;
+      font-family: 'Roboto',sans-serif; }
+    .bodyIndex .sectionVestimenta img {
+      width: 12.5rem;
+      height: 18.75rem; }
+    .bodyIndex .sectionVestimenta .Vestimenta {
+      display: flex;
+      flex-direction: row;
+      background-color: rgba(0, 0, 0, 0.589);
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-evenly; }
+      .bodyIndex .sectionVestimenta .Vestimenta .tipoVestimenta {
+        border: solid 0.0625rem rgba(0, 0, 0, 0.493);
+        display: flex;
+        flex-direction: column;
+        border-radius: .625rem;
+        overflow: hidden;
+        margin: 1.25rem 0px; }
+        .bodyIndex .sectionVestimenta .Vestimenta .tipoVestimenta h3 {
+          font-size: 15px; }
+    .bodyIndex main {
+      background-color: black; }
+      .bodyIndex main .apoyaSeleccion p {
+        font-family: 'Roboto',sans-serif;
+        width: 100%;
+        height: 31.25rem;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 100%;
+        background-image: url("https://www.ole.com.ar/images/2022/12/18/dYmYg_Tdb_1580x750__1.jpg");
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 35px;
+        color: white;
+        text-shadow: 0.3125rem 0.3125rem 0.3125rem black; }
+    .bodyIndex footer {
+      background-color: black; }
+      .bodyIndex footer .pieDePagina {
+        background-color: black;
+        margin-top: 1.875rem;
+        color: white;
+        display: flex;
+        justify-content: space-around; }
+        .bodyIndex footer .pieDePagina .ulRedes img {
+          width: 5rem;
+          height: 4.375rem; } }
+
+@media (max-width: 768px) {
+  header div img {
+    margin: .5rem .5rem;
+    width: 6.25rem;
+    height: 4.0625rem; }
+  .ulNavegador {
+    display: flex;
+    list-style: none;
+    justify-content: center; }
+    .ulNavegador li {
+      display: inline;
+      font-weight: bold;
+      padding-left: .5rem;
+      padding-right: .375rem;
+      padding-top: 1.875rem; }
+      .ulNavegador li a {
+        color: white;
+        text-decoration: none;
+        font-size: 12px; }
+  .sectionVestimentaRopa {
+    display: flex;
+    justify-content: center;
+    margin: 0rem 1.25rem;
+    font-family: 'Roboto',sans-serif;
+    justify-content: space-between;
+    align-items: center; }
+    .sectionVestimentaRopa img {
+      width: 116px;
+      height: 135px; }
+    .sectionVestimentaRopa h3 {
+      color: white;
+      font-size: .625rem; }
+  .CamisetasDeportivas img {
+    width: 41.25rem;
+    height: 21.875rem;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-left: 40px; }
+  .CamisetasDeportivas h3 {
+    margin-left: 40px;
+    color: white;
+    font-size: 15px;
+    font-family: 'Roboto',sans-serif; }
+  .pieDePagina h2 {
+    font-size: .625rem;
+    margin-left: 20px; }
+  .ulRedes img {
+    width: .4375rem;
+    height: .4375rem; }
+  /*---------------------ROPA SELECCION----------------------*/
+  .bodyRopaSeleccion header {
+    width: 100%;
+    height: 12.5rem;
+    background-image: url(../assets/img//festejoarg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 90%; }
+  .sectionVestimentaSeleccion {
+    display: flex;
+    justify-content: space-between; }
+    .sectionVestimentaSeleccion img {
+      width: 90px;
+      height: 8.125rem; }
+    .sectionVestimentaSeleccion h3 {
+      color: white;
+      font-family: 'Roboto',sans-serif; }
+  /*---------------------INDEX----------------------*/
+  .bodyIndex header {
+    background-color: #000000;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between; }
+    .bodyIndex header .logo {
+      display: flex;
+      justify-content: space-between; }
+      .bodyIndex header .logo img {
+        margin-top: 3.125rem; }
+    .bodyIndex header h1 {
+      text-align: center;
+      color: white;
+      font-family: 'Julius Sans One', sans-serif;
+      padding: 1.875rem;
+      display: inline; }
+  .bodyIndex .Banner {
+    width: 100%;
+    height: 780PX;
+    background-image: url("https://images.unsplash.com/photo-1526573461737-b504d8040d92?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 80%;
+    font-size: 20px;
+    color: white;
+    text-shadow: 0.3125rem 0.3125rem 0.3125rem rgba(0, 0, 0, 0.397);
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .bodyIndex .Banner h1 {
+      font-family: 'Julius Sans One', sans-serif;
+      justify-content: center;
+      margin-left: 40px; }
+  .bodyIndex .FraseLeo h1 {
+    margin-top: 1.25rem;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 1.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+  .bodyIndex .FraseLeo .foto-frase {
+    margin-left: 3.125rem;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .bodyIndex .FraseLeo .foto-frase h2 {
+      color: white;
+      font-family: 'Roboto', sans-serif;
+      font-size: .8125rem;
+      width: 25rem;
+      margin-left: 1.25rem; }
+    .bodyIndex .FraseLeo .foto-frase img {
+      width: 9.375rem;
+      height: 9.375rem; }
+  .bodyIndex .sectionVestimenta h2 {
+    margin: 2.5rem;
+    font-size: 1.875rem;
+    font-family: 'Roboto',sans-serif;
+    text-align: center;
+    color: white; }
+  .bodyIndex .sectionVestimenta h3 {
+    color: white;
+    font-family: 'Roboto',sans-serif; }
+  .bodyIndex .sectionVestimenta img {
+    width: 9.375rem;
+    height: 13.75rem; }
+  .bodyIndex .sectionVestimenta .Vestimenta {
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(0, 0, 0, 0.589);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly; }
+    .bodyIndex .sectionVestimenta .Vestimenta .tipoVestimenta {
+      border: solid 0.0625rem rgba(0, 0, 0, 0.493);
+      display: flex;
+      flex-direction: column;
+      border-radius: .625rem;
+      overflow: hidden;
+      margin: 1.5625rem 0px; }
+  .bodyIndex main {
+    background-color: black; }
+    .bodyIndex main .apoyaSeleccion p {
+      font-family: 'Roboto',sans-serif;
+      width: 100%;
+      height: 21.875rem;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: 100%;
+      background-image: url("https://www.ole.com.ar/images/2022/12/18/dYmYg_Tdb_1580x750__1.jpg");
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 1.875rem;
+      color: white;
+      text-shadow: 0.3125rem 0.3125rem 0.3125rem black; } }
+
+@media (max-width: 425px) {
+  header div img {
+    margin: .5rem .5rem;
+    width: 60px;
+    height: 40px; }
+  .ulNavegador {
+    display: flex;
+    list-style: none;
+    justify-content: center; }
+    .ulNavegador li {
+      display: inline;
+      font-weight: bold;
+      padding-left: .125rem;
+      padding-right: .1875rem;
+      margin-bottom: 1.875rem; }
+      .ulNavegador li a {
+        color: white;
+        text-decoration: none;
+        font-size: 10px; }
+  .sectionVestimentaRopa {
+    display: flex;
+    justify-content: center;
+    margin: 0rem 1.25rem;
+    font-family: 'Roboto',sans-serif;
+    justify-content: space-between;
+    align-items: center; }
+    .sectionVestimentaRopa img {
+      width: 3.625rem;
+      height: 6.25rem; }
+    .sectionVestimentaRopa h3 {
+      color: white;
+      font-size: .375rem; }
+  .CamisetasDeportivas img {
+    width: 18.75rem;
+    height: 9.375rem;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-left: 40px; }
+  .CamisetasDeportivas h3 {
+    margin-left: 40px;
+    color: white;
+    font-size: 9px;
+    font-family: 'Roboto',sans-serif; }
+  .pieDePagina h2 {
+    font-size: 6px;
+    margin-left: 35px; }
+  .pieDePagina ul {
+    font-size: 7px;
+    margin: 0; }
+  .ulRedes img {
+    width: .625rem;
+    height: .625rem; }
+  footer {
+    width: 26.5625rem; }
+  .bodyRopaSeleccion header {
+    width: 100%;
+    height: 100px;
+    background-image: url(../assets/img//festejoarg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 90%; }
+  .sectionVestimentaSeleccion {
+    display: flex;
+    justify-content: space-between; }
+    .sectionVestimentaSeleccion img {
+      width: 3.75rem;
+      height: 5.625rem; }
+    .sectionVestimentaSeleccion h3 {
+      color: white;
+      font-family: 'Roboto',sans-serif;
+      font-size: 7px; }
+  /*---------------------INDEX----------------------*/
+  .bodyIndex header {
+    background-color: #000000;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    justify-content: space-between; }
+    .bodyIndex header .logo {
+      display: flex;
+      justify-content: space-between; }
+    .bodyIndex header h1 {
+      text-align: center;
+      color: white;
+      font-family: 'Julius Sans One', sans-serif;
+      padding: 1.875rem;
+      display: inline; }
+  .bodyIndex .Banner {
+    width: 100%;
+    height: 25rem;
+    background-image: url("https://images.unsplash.com/photo-1526573461737-b504d8040d92?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 80%;
+    font-size: .3125rem;
+    color: white;
+    text-shadow: 0.3125rem 0.3125rem 0.3125rem rgba(0, 0, 0, 0.397);
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .bodyIndex .Banner h1 {
+      font-family: 'Julius Sans One', sans-serif; }
+  .bodyIndex .FraseLeo h1 {
+    margin-top: 1.25rem;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 1.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+  .bodyIndex .FraseLeo .foto-frase {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .bodyIndex .FraseLeo .foto-frase h2 {
+      color: white;
+      font-family: 'Roboto', sans-serif;
+      font-size: .625rem;
+      width: 25rem;
+      margin-right: 1.25rem; }
+    .bodyIndex .FraseLeo .foto-frase img {
+      width: 6.25rem;
+      height: 6.25rem; }
+  .bodyIndex .sectionVestimenta h2 {
+    margin: 2.5rem;
+    font-size: 1.875rem;
+    font-family: 'Roboto',sans-serif;
+    text-align: center;
+    color: white; }
+  .bodyIndex .sectionVestimenta h3 {
+    color: white;
+    font-family: 'Roboto',sans-serif; }
+  .bodyIndex .sectionVestimenta img {
+    width: 5rem;
+    height: 7.5rem; }
+  .bodyIndex .sectionVestimenta .Vestimenta {
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(0, 0, 0, 0.589);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly; }
+    .bodyIndex .sectionVestimenta .Vestimenta .tipoVestimenta {
+      border: solid 0.0625rem rgba(0, 0, 0, 0.493);
+      display: flex;
+      flex-direction: column;
+      border-radius: .625rem;
+      overflow: hidden;
+      margin: 1.5625rem 0px; }
+  .bodyIndex main {
+    background-color: black; }
+    .bodyIndex main .apoyaSeleccion p {
+      font-family: 'Roboto',sans-serif;
+      width: 100%;
+      height: 200px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: 100%;
+      background-image: url("https://www.ole.com.ar/images/2022/12/18/dYmYg_Tdb_1580x750__1.jpg");
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: .9375rem;
+      color: white;
+      text-shadow: 0.3125rem 0.3125rem 0.3125rem black; }
+  .bodyIndex footer {
+    background-color: black; }
+    .bodyIndex footer .pieDePagina {
+      color: white;
+      display: flex;
+      justify-content: space-around; }
+      .bodyIndex footer .pieDePagina .ulRedes img {
+        width: .4375rem;
+        height: 7px; } }

@@ -1,0 +1,214 @@
+@media(min-width:1025px){
+    header{
+        div{
+            img{
+                margin: .5rem .5rem;
+                width: 9.375rem;
+                height: 6.25rem;
+            }
+        }
+    }
+    .ulNavegador{
+        display: flex;
+        list-style: none;
+        justify-content: center;
+        li{    
+            display:inline;
+            font-weight: bold;
+            font-size:13px;
+            padding-left: .5rem;
+            padding-right: 1.25rem;
+            padding-top: 3.125rem;
+                a{
+                    color: white;
+                    text-decoration: none;
+                    font-size: .9375rem;
+                }
+        }
+    }
+    .sectionVestimentaRopa{
+        display: flex;
+        justify-content: center;
+        margin: 0rem 1.25rem;
+        font-family: 'Roboto',sans-serif;
+        justify-content: space-between;
+            img{
+                width: 18.75rem;
+                height: 28.125rem;
+            }
+            h3{
+                color: white;
+            }
+    }
+    
+    .CamisetasDeportivas{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        img{
+            width: 56.25rem;
+            height: 31.25rem;
+        }
+        h3{
+            color: white;
+        }
+    }
+    /* ROPA SELECCION */
+    .bodyRopaSeleccion header{
+        width: 100%;
+        height: 31.25rem;
+        background-image: url(../assets/img//festejoarg.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 90%;
+    }
+    .sectionVestimentaSeleccion{
+        display: flex;
+        justify-content: space-between;
+        img{
+            width: 18.75rem;
+            height: 25rem;
+        }
+        h3{
+            color: white;
+            font-family: 'Roboto',sans-serif;
+        }
+    }
+    /* INDEX */
+    .bodyIndex{
+        header{
+            background-color: #000000; 
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 100%;
+            height: 7.5rem;
+            display: flex;
+            justify-content: space-between;
+                .logo{
+                    display: flex;
+                    justify-content: space-between;
+            }
+            h1{
+                text-align: center;
+                color: white;
+                font-family: 'Julius Sans One', sans-serif;
+                padding: 1.875rem;
+                display: inline;
+            }
+            }
+        .Banner{
+                width: 100%;
+                height: 50.625rem;
+                background-image: url("https://images.unsplash.com/photo-1526573461737-b504d8040d92?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80");
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: 80%;
+                font-size: 2.5rem;
+                color: rgb(255, 255, 255);
+                text-shadow: .3125rem .3125rem .3125rem rgba(0, 0, 0, 0.397);
+                display: flex;
+                justify-content:center;
+                align-items: center;
+                    h1{
+                        font-family: 'Julius Sans One', sans-serif;
+                    }
+        }
+        .FraseLeo{
+            h1{
+                margin-top: 1.25rem;
+                color: white;
+                font-family: 'Roboto', sans-serif;
+                margin-bottom: 1.25rem;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            .foto-frase{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                    h2{
+                        color: white;
+                        font-family: 'Roboto', sans-serif;
+                        width: 37.5rem;
+                        margin-left: 1.25rem;
+                    }
+                    img{
+                        width: 15.625rem;
+                        height: 15.625rem;
+                    }
+            }
+        }
+        
+        .sectionVestimenta{
+            h2{
+                margin: 2.5rem;
+                font-size: 1.875rem;
+                font-family: 'Roboto',sans-serif;
+                text-align: center;
+                color: white; 
+            }
+            h3{
+                color: white;
+                font-family: 'Roboto',sans-serif
+            }
+            img{
+                width: 25rem;
+                height: 34.375rem;
+            }
+            .Vestimenta{
+                display: flex;
+                flex-direction: row;
+                background-color: rgba(0, 0, 0, 0.589);
+                display: flex;
+                flex-direction: row;
+                flex-wrap:wrap;
+                justify-content: space-evenly;
+                    .tipoVestimenta{
+                        border: solid .0625rem rgba(0, 0, 0, 0.493);
+                        display: flex;
+                        flex-direction: column;
+                        border-radius: .625rem;
+                        overflow: hidden;
+                        margin: 1.5625rem 0px;
+                    }
+            }
+        }
+        main{
+            background-color: black;
+            .apoyaSeleccion{
+                p{
+                    font-family: 'Roboto',sans-serif;
+                    width: 100%;
+                    height: 50rem;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    background-position: 100%;
+                    background-image: url("https://www.ole.com.ar/images/2022/12/18/dYmYg_Tdb_1580x750__1.jpg");
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    font-size: 3.4375rem;
+                    color: rgb(255, 255, 255);
+                    text-shadow: .3125rem .3125rem .3125rem rgb(0, 0, 0);
+                }
+            }
+        }
+        footer{
+            background-color: black;
+            .pieDePagina{
+                color: white;
+                display: flex;
+                justify-content: space-around;
+                    .ulRedes{
+                        img{
+                            width: 5rem;
+                            height: 4.375rem;
+                        }
+                    }
+            }
+        }
+        
+    }
+}
